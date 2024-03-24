@@ -25,9 +25,27 @@ body{
 main {
      background-color: black;
      width: 500px;
-     height: 700px;
+     height: 740px;
 
      border-radius: 20px;
+}
+
+#number-display{
+    color: white;
+    height: 160px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-size: 48px;
+
+    padding-right: 50px;
+
+}
+
+h1{
+    font-weight: lighter;
 }
 
 #calculator-numbers{
@@ -81,4 +99,9 @@ main {
 .alt-btn{
     background-color: var(--alt-button-color);
 
+}
+.btn.zero {
+    width: 200px;
+    text-align:start;
+    padding-left: 40px;
 }
