@@ -1,0 +1,33 @@
+:root {
+    --operator-button-color: #ff9f0a;
+    --number-button-color: #333333;
+    --alt-button-color: #a5a5a5;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+main {
+     background-color: black;
+     width: 500px;
+     height: 700px;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 40px;
+}
