@@ -67,6 +67,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
 }
 #alt-buttons{
     display: flex;
@@ -76,6 +77,10 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.number-btn:hover{
+    background-color: #615e5e;
 }
 
 .btn {
@@ -96,12 +101,30 @@ h1{
     background-color: var(--operator-button-color);
     color: white;
 }
+
+.operator-btn:hover{
+    background-color: #ffad32;
+
+}
 .alt-btn{
     background-color: var(--alt-button-color);
 
 }
+
+.alt-btn:hover{
+    background-color:#b9b9b9;
+}
+
+
 .btn.zero {
     width: 200px;
     text-align:start;
     padding-left: 40px;
+
+    margin-right: 10px;
+}
+
+.active-operation{
+    background-color: beige;
+    color: var(--operator-button-color);
 }
